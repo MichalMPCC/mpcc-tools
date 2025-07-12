@@ -12,7 +12,7 @@ def _(pl, en):
 # -------------------------------
 # Sidebar i nagłówek
 st.set_page_config(page_title="MPCC Tools", layout="wide")
-st.sidebar.image("logo.png", use_column_width=True)
+st.sidebar.image("logo.png", use_container_width=True)
 st.sidebar.markdown("**Kontakt:** [michal@mpcc.pl](mailto:michal@mpcc.pl)")
 st.sidebar.markdown("**Instagram:** [@mpcc.pl](https://www.instagram.com/mpcc.pl/)")
 
